@@ -10,7 +10,7 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Software',
+					label: 'docs/Software',
 					items: [
 						{ label: 'Mobile Application', slug: 'docs/software/mobile' },
 						{ label: 'Backend API', slug: 'docs/software/backend' },
@@ -21,7 +21,7 @@ export default defineConfig({
 				{
 					label: 'Hardware',
 					items: [
-						{ label: 'Node', slug: 'hardware/node' },
+						{ label: 'Node', slug: 'docs/hardware/node' },
 					],
 				}
 			],
