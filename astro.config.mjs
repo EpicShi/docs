@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Drishti',
+			title: 'Drishti Docs',
 			social: {
 				github: 'https://github.com/epicshi',
 			},
