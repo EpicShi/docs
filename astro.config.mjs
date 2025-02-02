@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	// site: 'https://epicshi.github.io',
+	base: '/docs',
 	integrations: [
 		starlight({
 			title: 'Drishti Docs',
@@ -10,18 +12,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'docs/Software',
+					label: 'Software',
 					items: [
-						{ label: 'Mobile Application', slug: 'docs/software/mobile' },
-						{ label: 'Backend API', slug: 'docs/software/backend' },
-						{ label: 'Disease Detection Model', slug: 'docs/software/disease' },
-						{ label: 'Time Series Model', slug: 'docs/software/timeseries' },
+						{ label: 'Mobile Application', slug: 'software/mobile' },
+						{ label: 'Backend API', slug: 'software/backend' },
+						{ label: 'Disease Detection Model', slug: 'software/disease' },
+						{ label: 'Time Series Model', slug: 'software/timeseries' },
 					],
 				},
 				{
 					label: 'Hardware',
 					items: [
-						{ label: 'Node', slug: 'docs/hardware/node' },
+						{ label: 'Node', slug: 'hardware/node' },
 					],
 				}
 			],
