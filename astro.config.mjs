@@ -12,10 +12,10 @@ export default defineConfig({
 				{
 					label: 'Software',
 					items: [
-						{ label: 'Mobile Application', slug: 'software/mobile' },
-						{ label: 'Backend API', slug: 'software/backend' },
-						{ label: 'Disease Detection Model', slug: 'software/disease' },
-						{ label: 'Time Series Model', slug: 'software/timeseries' },
+						{ label: 'Mobile Application', slug: 'docs/software/mobile' },
+						{ label: 'Backend API', slug: 'docs/software/backend' },
+						{ label: 'Disease Detection Model', slug: 'docs/software/disease' },
+						{ label: 'Time Series Model', slug: 'docs/software/timeseries' },
 					],
 				},
 				{
